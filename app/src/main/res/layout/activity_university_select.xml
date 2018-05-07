@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_gray"
+    android:orientation="vertical">
+
+    <include layout="@layout/titlebar" />
+
+    <LinearLayout style="@style/MenuGroupWrapper">
+
+        <TextView
+            android:id="@+id/tv_city"
+            style="@style/MyText"
+            android:layout_width="match_parent"
+            android:hint="选择学校"
+            android:maxLines="1"
+            android:padding="20dp" />
+
+        <View style="@style/SplitLine.WithMargin" />
+
+        <EditText
+            android:id="@+id/edt_building"
+            style="@style/MyText"
+            android:layout_width="match_parent"
+            android:layout_margin="15dp"
+            android:hint="楼    栋：如A区6舍"
+            android:maxLines="1" />
+
+        <EditText
+            android:id="@+id/edt_no"
+            style="@style/MyText"
+            android:layout_width="match_parent"
+            android:layout_margin="15dp"
+            android:hint="宿舍号：如706"
+            android:maxLines="1" />
+    </LinearLayout>
+
+</LinearLayout>

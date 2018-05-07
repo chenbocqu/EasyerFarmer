@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?><!-- 登录或注册主界面-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_gray"
+    android:orientation="vertical">
+
+    <include layout="@layout/titlebar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="43dp"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/id_switch_tab_ll"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:baselineAligned="false"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:id="@+id/ll_item1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:padding="10dip">
+
+                        <TextView
+                            android:id="@+id/tv_item1"
+                            style="@style/MyText"
+                            android:text="待受理" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/ll_item2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:padding="10dip"
+                        android:saveEnabled="false">
+
+                        <TextView
+                            android:id="@+id/tv_item2"
+                            style="@style/MyText"
+                            android:text="已接单" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/ll_item3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:padding="10dip"
+                        android:saveEnabled="false">
+
+                        <TextView
+                            android:id="@+id/tv_item3"
+                            style="@style/MyText"
+                            android:text="配送中" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/ll_item4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:padding="10dip"
+                        android:saveEnabled="false">
+
+                        <TextView
+                            android:id="@+id/tv_item4"
+                            style="@style/MyText"
+                            android:text="已完成" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/iv_tabline"
+                    android:layout_width="80dp"
+                    android:layout_height="3dp"
+                    android:background="@color/main_color"
+                    android:contentDescription="tab" />
+
+            </LinearLayout>
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/view_pager"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="@dimen/menuMargin"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

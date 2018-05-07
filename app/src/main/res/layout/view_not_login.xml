@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_not_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ImageView
+        style="@style/MyImg"
+        android:src="@drawable/not_login" />
+
+    <TextView
+        style="@style/MyText"
+        android:layout_marginTop="@dimen/menuMargin"
+        android:text="还未登陆，请先登录吧！"
+        android:textColor="@color/text_light" />
+
+    <Button
+        android:id="@+id/btn_login"
+        style="@style/HintBtn"
+        android:layout_marginTop="@dimen/menuMargin"
+        android:text="登录" />
+
+</LinearLayout>

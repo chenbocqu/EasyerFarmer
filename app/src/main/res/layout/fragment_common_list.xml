@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_gray"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include layout="@layout/view_nodata" />
+
+        <include layout="@layout/view_not_login" />
+
+        <include layout="@layout/view_net_error" />
+
+        <com.cqu.stuexpress.view.refresh.PullToRefreshLayout
+            android:id="@+id/pullToRefreshLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/menuMargin">
+
+            <com.cqu.stuexpress.view.refresh.PullListView
+                android:id="@+id/pullListView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:divider="@null"
+                android:dividerHeight="1dp"
+                android:listSelector="@android:color/transparent"
+                android:overScrollMode="never"
+                android:scrollingCache="false" />
+        </com.cqu.stuexpress.view.refresh.PullToRefreshLayout>
+
+        <com.mingle.widget.LoadingView
+            android:id="@+id/avi"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </RelativeLayout>
+
+</LinearLayout>

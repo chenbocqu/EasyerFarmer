@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_gray"
+    android:orientation="vertical">
+
+    <include layout="@layout/titlebar" />
+
+    <TextView
+        style="@style/MyText"
+        android:padding="@dimen/text_padding"
+        android:text="请选择配送时间" />
+
+    <LinearLayout
+        style="@style/Wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/itemMargin">
+
+            <TextView
+                android:id="@+id/tv_item1"
+                style="@style/MyText"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/item_unselected"
+                android:gravity="center"
+                android:padding="@dimen/text_padding"
+                android:text="随时" />
+
+            <TextView
+                android:id="@+id/tv_item2"
+                style="@style/MyText"
+                android:layout_width="0dp"
+                android:layout_marginLeft="@dimen/itemMargin"
+                android:layout_weight="1"
+                android:background="@drawable/item_unselected"
+                android:gravity="center"
+                android:padding="@dimen/text_padding"
+                android:text="8:00~10:00" />
+
+            <TextView
+                android:id="@+id/tv_item3"
+                style="@style/MyText"
+                android:layout_width="0dp"
+                android:layout_marginLeft="@dimen/itemMargin"
+                android:layout_weight="1"
+                android:background="@drawable/item_unselected"
+                android:gravity="center"
+                android:padding="@dimen/text_padding"
+                android:text="10:00~12:00" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/itemMargin">
+
+            <TextView
+                android:id="@+id/tv_item4"
+                style="@style/MyText"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/item_unselected"
+                android:gravity="center"
+                android:padding="@dimen/text_padding"
+                android:text="12:00~14:00" />
+
+            <TextView
+                android:id="@+id/tv_item5"
+                style="@style/MyText"
+                android:layout_width="0dp"
+                android:layout_marginLeft="@dimen/itemMargin"
+                android:layout_weight="1"
+                android:background="@drawable/item_unselected"
+                android:gravity="center"
+                android:padding="@dimen/text_padding"
+                android:text="14:00~16:00" />
+
+            <TextView
+                android:id="@+id/tv_item6"
+                style="@style/MyText"
+                android:layout_width="0dp"
+                android:layout_marginLeft="@dimen/itemMargin"
+                android:layout_weight="1"
+                android:background="@drawable/item_unselected"
+                android:gravity="center"
+                android:padding="@dimen/text_padding"
+                android:text="16:00~18:00" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/itemMargin">
+
+            <TextView
+                android:id="@+id/tv_item7"
+                style="@style/MyText"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/item_unselected"
+                android:gravity="center"
+                android:padding="@dimen/text_padding"
+                android:text="18:00~20:00" />
+
+            <TextView
+                android:id="@+id/tv_item8"
+                style="@style/MyText"
+                android:layout_width="0dp"
+                android:layout_marginLeft="@dimen/itemMargin"
+                android:layout_weight="1"
+                android:background="@drawable/item_unselected"
+                android:gravity="center"
+                android:padding="@dimen/text_padding"
+                android:text="20:00~22:00" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/itemMargin"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        style="@style/MyText"
+        android:padding="@dimen/text_padding"
+        android:text="或您可以自定义" />
+
+    <LinearLayout
+        style="@style/Wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="@dimen/margin_huge"
+        android:paddingTop="@dimen/margin_huge">
+
+        <TextView
+            android:id="@+id/tv_start_time"
+            style="@style/MyText"
+            android:background="@drawable/item_unselected"
+            android:hint="起始时间"
+            android:padding="@dimen/text_padding" />
+
+
+        <TextView
+            style="@style/MyText"
+            android:layout_marginLeft="@dimen/margin_huge"
+            android:text="至"
+            android:textColor="@color/text_light" />
+
+        <TextView
+            android:id="@+id/tv_end_time"
+            style="@style/MyText"
+            android:layout_marginLeft="@dimen/margin_huge"
+            android:background="@drawable/item_unselected"
+            android:hint="结束时间"
+            android:padding="@dimen/text_padding" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_ok"
+        style="@style/RoundBtn"
+        android:layout_margin="@dimen/margin_huge"
+        android:text="确定" />
+
+</LinearLayout>
