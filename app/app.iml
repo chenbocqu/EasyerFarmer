@@ -105,11 +105,10 @@
     <orderEntry type="jdk" jdkName="Android API 23 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" exported="" name="okio-1.8.0" level="project" />
-    <orderEntry type="library" exported="" name="MobGUI-2018.0307.2123" level="project" />
     <orderEntry type="library" exported="" name="core-3.3.0" level="project" />
-    <orderEntry type="library" exported="" name="MobCommons-2018.0308.1404" level="project" />
     <orderEntry type="library" exported="" name="library-1.1.3" level="project" />
     <orderEntry type="library" exported="" name="commons-lang-2.0" level="project" />
+    <orderEntry type="library" exported="" name="MobGUI-2018.0419.1211" level="project" />
     <orderEntry type="library" exported="" name="glide-3.6.0" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="multidex-instrumentation-1.0.1" level="project" />
     <orderEntry type="library" exported="" name="MultiImageSelector-1.2" level="project" />
@@ -117,8 +116,8 @@
     <orderEntry type="library" exported="" name="shswiperefreshlayout-1.3.0" level="project" />
     <orderEntry type="library" exported="" name="commons-logging-1.1.1" level="project" />
     <orderEntry type="library" exported="" name="androidannotations-api-3.2" level="project" />
-    <orderEntry type="library" exported="" name="MobTools-2018.0307.2123" level="project" />
     <orderEntry type="library" exported="" name="appcompat-v7-24.2.1" level="project" />
+    <orderEntry type="library" exported="" name="SMSSDK-3.1.1.1" level="project" />
     <orderEntry type="library" exported="" name="MPAndroidChart-v3.0.2" level="project" />
     <orderEntry type="library" exported="" name="rxjava-1.2.1" level="project" />
     <orderEntry type="library" exported="" name="materialish-progress-1.0" level="project" />
@@ -130,7 +129,6 @@
     <orderEntry type="library" exported="" name="hyphenate-sdk-3.3.0" level="project" />
     <orderEntry type="library" exported="" name="support-annotations-25.3.1" level="project" />
     <orderEntry type="library" exported="" name="support-compat-25.3.1" level="project" />
-    <orderEntry type="library" exported="" name="SMSSDK-3.1.0" level="project" />
     <orderEntry type="library" exported="" name="commons-beanutils-1.7.0" level="project" />
     <orderEntry type="library" exported="" name="commons-io-1.4" level="project" />
     <orderEntry type="library" exported="" name="animated-vector-drawable-24.2.1" level="project" />
@@ -138,7 +136,6 @@
     <orderEntry type="library" exported="" name="okhttp3-integration-1.4.0" level="project" />
     <orderEntry type="library" exported="" name="picasso-2.5.2" level="project" />
     <orderEntry type="library" exported="" name="ezmorph-1.0.6" level="project" />
-    <orderEntry type="library" exported="" name="ShortMessageSDKGUI-3.1.0" level="project" />
     <orderEntry type="library" exported="" name="bga-zxing-1.1.9" level="project" />
     <orderEntry type="library" exported="" name="lib_crop-1.0.0" level="project" />
     <orderEntry type="library" exported="" name="support-core-ui-25.3.1" level="project" />
@@ -164,7 +161,10 @@
     <orderEntry type="library" exported="" name="support-v4-25.0.0" level="project" />
     <orderEntry type="library" exported="" name="multidex-1.0.1" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="hamcrest-core-1.3" level="project" />
+    <orderEntry type="library" exported="" name="ShortMessageSDKGUI-3.1.1.1" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="junit-4.12" level="project" />
+    <orderEntry type="library" exported="" name="MobTools-2018.0419.1211" level="project" />
+    <orderEntry type="library" exported="" name="MobCommons-2018.0418.1102" level="project" />
     <orderEntry type="library" exported="" name="okhttputils-2.6.2" level="project" />
     <orderEntry type="library" exported="" name="commonadapter-1.8.1" level="project" />
     <orderEntry type="library" exported="" name="NineGridView-1.2.1" level="project" />
