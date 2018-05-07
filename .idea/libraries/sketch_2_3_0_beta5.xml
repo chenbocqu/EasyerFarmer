@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="sketch-2.3.0-beta5">
+    <CLASSES>
+      <root url="file://E:/DevelopEnvirment/Android_Home/.android/build-cache/33f6cf63aa791aa1471e4b101d0a4451bedfec04/output/res" />
+      <root url="jar://E:/DevelopEnvirment/Android_Home/.android/build-cache/33f6cf63aa791aa1471e4b101d0a4451bedfec04/output/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/me.xiaopan/sketch/2.3.0-beta5/5361975d032832c3061712b7a302f82d0da5ab9f/sketch-2.3.0-beta5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

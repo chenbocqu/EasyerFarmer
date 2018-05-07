@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="NineGridView-1.2.1">
+    <CLASSES>
+      <root url="jar://E:/DevelopEnvirment/Android_Home/.android/build-cache/1925f9f5ac22513e5e5985ca70d25af6d73be9bd/output/jars/classes.jar!/" />
+      <root url="file://E:/DevelopEnvirment/Android_Home/.android/build-cache/1925f9f5ac22513e5e5985ca70d25af6d73be9bd/output/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.lwkandroid.widget/NineGridView/1.2.1/9294c3722f9d2718b1d36eb3648ccc698789650e/NineGridView-1.2.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="commonadapter-1.8.1">
+    <CLASSES>
+      <root url="jar://E:/DevelopEnvirment/Android_Home/.android/build-cache/872ed6c3b5efee3563b1fa017cff8251ac826f29/output/jars/classes.jar!/" />
+      <root url="file://E:/DevelopEnvirment/Android_Home/.android/build-cache/872ed6c3b5efee3563b1fa017cff8251ac826f29/output/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.classic.adapter/commonadapter/1.8.1/517eb495481689a1202e13b2579afd8e7bc9f120/commonadapter-1.8.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
