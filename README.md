@@ -5,21 +5,21 @@
 - 发布商品（包括果蔬价格）
 
 
-        private String imgUrl; //头像URL
+    private String imgUrl; //头像URL
 
-        private String title; // 标题
+    private String title; // 标题
 
-        private String desc;//描述
+    private String desc;//描述
 
-        private int stock; // 有多少库存
+    private int stock; // 有多少库存
 
-        private int volume; // 成交量
+    private int volume; // 成交量
 
-        private double price; // 单价
+    private double price; // 单价
 
-        private String city;// 发货城市
+    private String city;// 发货城市
 
-        private String speed; // 发货速度
+    private String speed; // 发货速度
 
 
 - 发布货物运输订单

@@ -125,15 +125,19 @@ public class HomepageFragment extends FragmentWithOnResume implements View.OnCli
     @Override
     public void onClick(View v) {
         switch (v.getId()) {
+
             case R.id.ll_express_take:
                 myTool.startActivity(PublishActivity.class);
                 break;
+
             case R.id.ll_other_task:
                 myTool.startActivity(OtherTaskActivity.class);
                 break;
+
             case R.id.ll_send:
-                myTool.startActivity(ExpressSendActivity.class);
+                myTool.startActivity(TransPublishActivity.class);
                 break;
+
             case R.id.ll_return:
                 myTool.startActivity(BookReturnActivity.class);
                 break;

@@ -153,6 +153,10 @@
             android:name=".ui.homepage.PublishActivity"
             android:screenOrientation="portrait" />
 
+        <activity
+            android:name=".ui.homepage.TransPublishActivity"
+            android:screenOrientation="portrait" />
+
         <!-- 设置环信应用的AppKey -->
         <meta-data
             android:name="EASEMOB_APPKEY"

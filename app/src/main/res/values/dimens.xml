@@ -56,5 +56,8 @@
     <dimen name="margin_small">3dp</dimen>
     <dimen name="item_padding">15dp</dimen>
 
+    <dimen name="padding_normal">15dp</dimen>
+    <dimen name="padding_tiny">2dp</dimen>
+    <dimen name="padding_small">5dp</dimen>
 
 </resources>
