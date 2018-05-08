@@ -112,7 +112,9 @@
 
                     </LinearLayout>
 
-                    <LinearLayout style="@style/BtnItem">
+                    <LinearLayout
+                        android:id="@+id/ll_mytrans"
+                        style="@style/BtnItem">
 
                         <ImageView
                             style="@style/Icon_btnItem"

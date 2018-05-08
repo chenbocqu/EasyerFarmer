@@ -94,6 +94,7 @@ public class HomepageFragment extends FragmentWithOnResume implements View.OnCli
         setClickListenerOnThis(R.id.ll_send);
         setClickListenerOnThis(R.id.ll_return);
         setClickListenerOnThis(R.id.ll_order);
+        setClickListenerOnThis(R.id.ll_mytrans);
     }
 
     private void initView(View v) {
@@ -141,8 +142,12 @@ public class HomepageFragment extends FragmentWithOnResume implements View.OnCli
             case R.id.ll_return:
                 myTool.startActivity(BookReturnActivity.class);
                 break;
+
             case R.id.ll_order:
-                myTool.startActivity(OrderActivity.class);
+                myTool.startActivity("我的交易", OrderActivity.class);
+                break;
+            case R.id.ll_mytrans:
+                myTool.startActivity("我的货运", OrderActivity.class);
                 break;
         }
     }

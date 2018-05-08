@@ -14,6 +14,7 @@ import android.widget.TextView;
 import com.cqu.stuexpress.R;
 import com.cqu.stuexpress.ui.base.FragmentWithOnResume;
 import com.cqu.stuexpress.ui.base.TitleBarActivity;
+import com.cqu.stuexpress.ui.homepage.order.NoneOrderFragment;
 import com.cqu.stuexpress.ui.homepage.order.PendingOrderFragment;
 
 import java.util.ArrayList;
@@ -34,6 +35,8 @@ public class OrderActivity extends TitleBarActivity implements ViewPager.OnPageC
     int screenWidth, mPerScreenWidth, initLeftMargin = 40, tabCnt;
     LinearLayout.LayoutParams lp;
 
+    String title;
+
     @Override
     protected int getContentView() {
         return R.layout.activity_orders;
@@ -41,11 +44,14 @@ public class OrderActivity extends TitleBarActivity implements ViewPager.OnPageC
 
     @Override
     public String getUITitle() {
-        return "我的订单";
+        return title;
     }
 
     @Override
     public void init() {
+
+        title = (String) myTool.getParam(String.class);
+        if (title == null) title = "??";
 
         mViewPager = (ViewPager) findViewById(R.id.view_pager);
         ivTabLine = (ImageView) findViewById(R.id.iv_tabline);
@@ -64,10 +70,10 @@ public class OrderActivity extends TitleBarActivity implements ViewPager.OnPageC
     }
 
     private void setFragments() {
-        mTabs.add(new PendingOrderFragment());
-        mTabs.add(new PendingOrderFragment());
-        mTabs.add(new PendingOrderFragment());
-        mTabs.add(new PendingOrderFragment());
+        mTabs.add(new NoneOrderFragment());
+        mTabs.add(new NoneOrderFragment());
+        mTabs.add(new NoneOrderFragment());
+        mTabs.add(new NoneOrderFragment());
 
         mAdapter = new FragmentPagerAdapter(getSupportFragmentManager()) {
 

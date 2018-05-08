@@ -134,6 +134,7 @@ public abstract class TitleBarActivity extends TakePhotoFragmentActivity impleme
     }
 
     private void initTitleBar() {
+
         setText(R.id.tv_title, getUITitle());
 
         if (menuListener != null || menuText != null) {
