@@ -428,6 +428,8 @@ public class CommonTools {
         User user = new User();
         if (cacheHelper != null)
             user = cacheHelper.getAsSerializable(StuExpValues.USER_INFO + getUserId());
+        if (user == null) user = new User();
+
         return user;
     }
 

@@ -41,6 +41,7 @@ public class BalanceActivity extends TitleBarActivity {
     protected void onResume() {
         super.onResume();
         mUser = myTool.getUserInfo();
+        if (mUser == null) return;
         setText(R.id.tv_balance, "¥" + mUser.getBalance());
     }
 

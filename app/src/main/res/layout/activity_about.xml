@@ -18,7 +18,7 @@
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:layout_centerHorizontal="true"
-            android:src="@mipmap/xuedilaila_logo" />
+            android:src="@mipmap/easyfarm_logo" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -26,7 +26,7 @@
             android:layout_below="@id/iv_welcome"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="10dp"
-            android:text="学递来啦V1.0.5"
+            android:text="农源易宝 V1.0.5"
             android:textColor="#888"
             android:textSize="15dp" />
     </RelativeLayout>

@@ -51,12 +51,12 @@
 
                         <ImageView
                             style="@style/Icon_btnItem"
-                            android:src="@drawable/express" />
+                            android:src="@drawable/fruit" />
 
                         <TextView
                             style="@style/MyText"
                             android:layout_marginTop="10dp"
-                            android:text="帮我领" />
+                            android:text="果蔬上架" />
 
                     </LinearLayout>
 
@@ -66,12 +66,12 @@
 
                         <ImageView
                             style="@style/Icon_btnItem"
-                            android:src="@drawable/express_send" />
+                            android:src="@drawable/express" />
 
                         <TextView
                             style="@style/MyText"
                             android:layout_marginTop="10dp"
-                            android:text="帮我寄" />
+                            android:text="发布货运" />
 
                     </LinearLayout>
 
@@ -81,12 +81,12 @@
 
                         <ImageView
                             style="@style/Icon_btnItem"
-                            android:src="@drawable/give_back" />
+                            android:src="@drawable/iwant" />
 
                         <TextView
                             style="@style/MyText"
                             android:layout_marginTop="10dp"
-                            android:text="帮我还" />
+                            android:text="我要买" />
                     </LinearLayout>
 
                 </LinearLayout>
@@ -96,20 +96,6 @@
                     android:layout_height="wrap_content"
                     android:background="@color/white"
                     android:orientation="horizontal">
-
-                    <LinearLayout
-                        android:id="@+id/ll_other_task"
-                        style="@style/BtnItem">
-
-                        <ImageView
-                            style="@style/Icon_btnItem"
-                            android:src="@drawable/other_task" />
-
-                        <TextView
-                            style="@style/MyText"
-                            android:layout_marginTop="10dp"
-                            android:text="其他任务" />
-                    </LinearLayout>
 
                     <LinearLayout
                         android:id="@+id/ll_order"
@@ -122,7 +108,7 @@
                         <TextView
                             style="@style/MyText"
                             android:layout_marginTop="10dp"
-                            android:text="我的订单" />
+                            android:text="我的交易" />
 
                     </LinearLayout>
 
@@ -130,13 +116,20 @@
 
                         <ImageView
                             style="@style/Icon_btnItem"
-                            android:src="@drawable/myexpress" />
+                            android:src="@drawable/transport" />
 
                         <TextView
                             style="@style/MyText"
                             android:layout_marginTop="10dp"
-                            android:text="我的快递" />
+                            android:text="我的货运" />
                     </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/ll_other_task"
+                        style="@style/BtnItem">
+
+                    </LinearLayout>
+
                 </LinearLayout>
 
                 <FrameLayout

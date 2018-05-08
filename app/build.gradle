@@ -102,7 +102,7 @@ dependencies {
 
     // 图片预览和九宫格
     compile 'com.ycjiang:ImagePreview:2.0.5'
-
+    compile 'com.jaeger.ninegridimageview:library:1.1.1'
     compile 'com.lwkandroid.widget:NineGridView:1.2.1'
 }
 

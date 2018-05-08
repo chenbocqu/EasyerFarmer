@@ -40,7 +40,7 @@ public class ExpressInfoFragment extends Fragment implements View.OnClickListene
     }
 
     private void initData() {
-        Glide.with(getActivity()).load("https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=3066196835,2948820611&fm=23&gp=0.jpg").into(ivImg);
+        Glide.with(getActivity()).load("http://www.023peisong.com/Uploads/201611/5819a53543caa.jpg").into(ivImg);
     }
 
     private void initEvent() {

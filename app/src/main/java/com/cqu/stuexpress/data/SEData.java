@@ -10,17 +10,17 @@ public class SEData {
 
     public static List<String> getImageUrls() {
         List<String> images = new ArrayList<>();
-        images.add("http://graduate.cqu.edu.cn/images/slide1.jpg");
-        images.add("http://graduate.cqu.edu.cn/images/slide3.jpg");
-        images.add("http://graduate.cqu.edu.cn/images/slide2.jpg");
+        images.add("http://www.farmer.com.cn/tppd/snjj/201805/W020180508355568130642.jpg");
+        images.add("http://paper.ce.cn/jjrb/res/1/1/2018-05/08/16/res01_attpic_brief.jpg");
+        images.add("http://szb.farmer.com.cn/nmrb/images/2018-05/08/05/p43_b.jpg");
         return images;
     }
 
     public static List<String> getImageTitles() {
         List<String> titles = new ArrayList<>();
-        titles.add("一滴水也可以看到一个大世界");
-        titles.add("生气勃勃的五教");
-        titles.add("最美不过校园一角");
+        titles.add("重庆：“农业+旅游”带动农户脱贫增收");
+        titles.add("全国果菜茶有机肥替代化肥试点增至150个县");
+        titles.add("2018年国家优质稻品种攻关推进暨鉴评推介会：寻找中国好大米");
         return titles;
     }
 

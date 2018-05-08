@@ -126,7 +126,7 @@ public class HomepageFragment extends FragmentWithOnResume implements View.OnCli
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.ll_express_take:
-                myTool.startActivity(ExpressTakeActivity.class);
+                myTool.startActivity(PublishActivity.class);
                 break;
             case R.id.ll_other_task:
                 myTool.startActivity(OtherTaskActivity.class);

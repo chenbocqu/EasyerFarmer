@@ -39,6 +39,8 @@
     <color name="black">#000000</color>
     <color name="bg_gray">#f3f3f3</color>
     <color name="text_light">#999999</color>
+    <color name="text_hint">#c5c5c5</color>
+
     <color name="line">#e0e0e0</color>
     <color name="text_gray">#8c8c8c</color>
     <color name="gray_bg">#f3f3f3</color>
