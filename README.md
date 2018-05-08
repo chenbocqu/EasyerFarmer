@@ -4,6 +4,7 @@
 
 - 发布商品（包括果蔬价格）
 
+
     private String imgUrl; //头像URL
 
     private String title; // 标题
@@ -19,6 +20,7 @@
     private String city;// 发货城市
 
     private String speed; // 发货速度
+
 
 - 发布货物运输订单
 - 购买农料、农具
