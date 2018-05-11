@@ -154,6 +154,10 @@
             android:screenOrientation="portrait" />
 
         <activity
+            android:name=".ui.homepage.WantBuyActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
             android:name=".ui.homepage.TransPublishActivity"
             android:screenOrientation="portrait" />
 

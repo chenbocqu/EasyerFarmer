@@ -44,7 +44,7 @@ public class MainActivity extends FragmentActivity implements View.OnClickListen
     ViewPager mViewPager;
 
     private List<FragmentWithOnResume> mTabs = new ArrayList<>();
-    private String[] mTitles = new String[]{"首页", "附近", "包裹", "个人信息"};
+    private String[] mTitles = new String[]{"首页", "农料农具", "求购信息", "个人信息"};
     private FragmentPagerAdapter mAdapter;
 
     @ViewById(R.id.ll_menu)

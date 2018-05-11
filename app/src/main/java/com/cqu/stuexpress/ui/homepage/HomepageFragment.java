@@ -140,12 +140,13 @@ public class HomepageFragment extends FragmentWithOnResume implements View.OnCli
                 break;
 
             case R.id.ll_return:
-                myTool.startActivity(BookReturnActivity.class);
+                myTool.startActivity(WantBuyActivity.class);
                 break;
 
             case R.id.ll_order:
                 myTool.startActivity("我的交易", OrderActivity.class);
                 break;
+
             case R.id.ll_mytrans:
                 myTool.startActivity("我的货运", OrderActivity.class);
                 break;
